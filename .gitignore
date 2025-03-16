@@ -1,0 +1,24 @@
+# course config files
+*.yaml
+
+# gradle
+.gradle/
+build
+
+# idea config
+.idea
+
+# md files except README
+*.md
+!README.md
+
+# excluded lessons
+Introduction/
+
+# included lessons
+Building the Maze/*/
+Building the Maze/task/*/
+
+!/Building the Maze/task/
+!/Building the Maze/task/src/
+
